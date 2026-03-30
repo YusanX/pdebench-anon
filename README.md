@@ -117,23 +117,12 @@ This experiment removes numerical hints and even the output-grid specification f
 
 ## 5. Solver Directory Layout
 
-The cross-library language extensions are organized under `pdebench/solver`.
+The cross library and language extensions are organized under `pdebench/solver`.
 
 ```text
 pdebench/solver/
-├── oracle.py
-├── common.py
-├── _types.py
-├── poisson.py
-├── heat.py
-├── convection_diffusion.py
-├── reaction_diffusion.py
-├── helmholtz.py
-├── biharmonic.py
-├── stokes.py
-├── navier_stokes.py
-├── linear_elasticity.py
-├── darcy.py
+├── *.py
+├── ...
 ├── firedrake/
 │   ├── __init__.py
 │   ├── oracle.py
