@@ -143,7 +143,7 @@ def run_oracle(case: Dict, cache_dir: Path, solver_library: str = "dolfinx") -> 
     print(f"   🔮 Running oracle...")
     
     try:
-        from pdebench.oracle import OracleSolver
+        from pdebench.solver import OracleSolver
         
         oracle = OracleSolver()
         oracle_config = case['oracle_config']

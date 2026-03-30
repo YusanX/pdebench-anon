@@ -28,7 +28,7 @@ class OracleSolver:
     def solve(self, case_spec: Dict[str, Any], solver_library: str = "dolfinx") -> OracleResult:
         if solver_library == "firedrake":
             try:
-                from .firedrake_oracle import FiredrakeOracleSolver
+                from .firedrake import FiredrakeOracleSolver
             except ImportError as e:
                 raise ImportError(
                     "Firedrake oracle requires Firedrake to be installed. "
@@ -37,7 +37,7 @@ class OracleSolver:
             return FiredrakeOracleSolver().solve(case_spec)
 
         if solver_library == "dealii":
-            from .dealii_oracle import DealIIOracleSolver
+            from .dealii import DealIIOracleSolver
             return DealIIOracleSolver().solve(case_spec)
 
         pde_type = case_spec["pde"]["type"]
