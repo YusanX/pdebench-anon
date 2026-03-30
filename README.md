@@ -96,7 +96,7 @@ All numbers below are from the rebuttal experiments on `Gemini-3.0-pro`.
 | Setting | Biharmonic | Convection-Diffusion | Heat | Helmholtz | Linear Elasticity | Navier-Stokes | Poisson | Reaction-Diffusion | Stokes | all |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Original paper setting (DOLFINx) | 66.7 | 40.5 | 7.5 | 68.4 | 0.0 | 0.0 | 44.0 | 4.5 | 0.0 | 27.4 |
-| Template-guided / API-decoupled | 66.7 | 42.9 | 67.5 | 63.16 | 28.7 | 21.4 | 40.0 | 27.3 | 27.8 | 44.4 |
+| Template-guided / API-decoupled | 66.7 | 42.9 | 67.5 | 63.2 | 28.7 | 21.4 | 40.0 | 27.3 | 27.8 | 44.4 |
 
 ### 4.2 Cross-Library / Cross-Language Experiment
 
