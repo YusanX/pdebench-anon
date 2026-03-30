@@ -117,7 +117,7 @@ This experiment removes numerical hints and even the output-grid specification f
 
 ## 5. Solver Directory Layout
 
-The rebuttal extensions are organized under `pdebench/solver`.
+The cross-library language extensions are organized under `pdebench/solver`.
 
 ```text
 pdebench/solver/
